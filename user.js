@@ -536,26 +536,7 @@ user_pref("extensions.autoDisableScopes", 15);
 user_pref("network.proxy.autoconfig_url.include_path", false);
 // Close bypassing of CSP via image mime types (FF51+)
 user_pref("security.block_script_with_wrong_mime", true);
-
-
-
-/*** 2699: TOR UPLIFT: privacy.resistFingerprinting
-     This preference will be used as a generic switch for a wide range of items.
-     This section will attempt to list all the ramifications and Mozilla tickets ***/
-// 2699a: limit window.screen & CSS media queries providing large amounts of identifiable info.
-   // POC: http://ip-check.info/?lang=en (screen, usable screen, and browser window will match)
-   // https://bugzilla.mozilla.org/show_bug.cgi?id=418986
-   // NOTE: does not cover everything yet - https://bugzilla.mozilla.org/show_bug.cgi?id=1216800
-   // NOTE: this will probably make your values pretty unique until you resize or snap the
-   // inner window width + height into standard/common resolutions (mine is at 1366x768)
-   // To set a size, open a XUL (chrome) page (such as about:config) which is at 100% zoom, hit
-   // Shift+F4 to open the scratchpad, type window.resizeTo(1366,768), hit Ctrl+R to run. Test
-   // your window size, do some math, resize to allow for all the non inner window elements
-   // test: http://browserspy.dk/screen.php
-   // Common resolutions: http://www.rapidtables.com/web/dev/screen-resolution-statistics.htm
-// 2699b: spoof screen orientation
-   // https://bugzilla.mozilla.org/show_bug.cgi?id=1281949
-// Hide the contents of navigator.plugins and navigator.mimeTypes (FF50+)
+// Hide the contents of navigator.plugins and navigator.mimeTypes
 user_pref("privacy.resistFingerprinting", true); // (hidden pref)
 
 
