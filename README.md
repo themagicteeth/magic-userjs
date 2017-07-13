@@ -1,7 +1,9 @@
 # Options
 These are highly subjective and are the preferences that I use, feel free to change any of them to suit your needs. 
 
-To get to the options click the hamburger menu in the top right and select Options:
+To get to the options click the hamburger menu in the top right and select Options:     
+    
+![Options in menu](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/options.PNG)
 
 ## General
 ### Startup
