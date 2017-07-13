@@ -7,8 +7,9 @@ To get to the options click the hamburger menu in the top right and select Optio
 ### Startup
 I use Firefox as my default but I still disable `Always check if Nightly is your default browser`.
 
-I like to have my session restored after I close the window so I choose `Show your windows and tabs from last time` from the dropdown.
-![Alt text](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/prefs1.PNG)
+I like to have my session restored after I close the window so I choose `Show your windows and tabs from last time` from the dropdown.    
+
+![Startup Prefs](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/prefs1.PNG)
 
 ### Default Search Engine
 Later we will setup a default search engine not in this list. For now I delete all the defaults (Except for Google) by selecting each one and hitting the *DELETE* key on my keyboard. I prefer to add them myself as Mozilla will put in affiliate links in some of their search engines.
@@ -24,7 +25,11 @@ I enable `Warn you when websites try to redirect or reload the page` as a securi
 I choose to `Use custom settings for history` and I `Never` `Accept third-party cookies`.
 
 ### Security
-I uncheck all possible boxes here, and I start from the bottom and go up as if you check the top first the bottom ones will be unable to be unchecked. Starting with `Warn you about unwanted and uncommon software`, then, `Block dangerous downloads` and finally `Block dangerous and deceptive content`.
+I uncheck all possible boxes here, and I start from the bottom and go up as if you check the top first the bottom ones will be unable to be unchecked. Starting with `Warn you about unwanted and uncommon software`, then, `Block dangerous downloads` and finally `Block dangerous and deceptive content`.    
+    
+![Custom Settings](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/custom-history.PNG)
+![No Third Party Cookies](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/never-third.PNG)
+
 
 ### DRM Content
 I uncheck the `Play DRM content` box on principle (also I do not watch Netflix or play video games in my browser). If you watch Netflix / hulu you may want to keep this enabled.
