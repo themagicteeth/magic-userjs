@@ -32,11 +32,15 @@ I uncheck all possible boxes here, and I start from the bottom and go up as if y
 
 
 ### DRM Content
-I uncheck the `Play DRM content` box on principle (also I do not watch Netflix or play video games in my browser). If you watch Netflix / hulu you may want to keep this enabled.
+I uncheck the `Play DRM content` box on principle (also I do not watch Netflix or play video games in my browser). If you watch Netflix / hulu you may want to keep this enabled.   
+    
+![Disable DRM](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/drm.PNG)
 
 ### Cached Web Content
-I check `Override automatic cache management` and then `Limit cache to` 0MB `of space`. Cache can be a privacy issue. In addition as a Web Developer it occasionally messed things up for me.
-
+I check `Override automatic cache management` and then `Limit cache to` 0MB `of space`. Cache can be a privacy issue. In addition as a Web Developer it occasionally messed things up for me.   
+    
+![No cached content](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/cache.PNG) 
+       
 ### Reports
 #### Telemetry
 I start at the bottom and work up to ensure all boxes are unchecked, first deselecting `Share Additional Data (i.e., Telemetry)` and then `Enable Nightly Health Report`. 
