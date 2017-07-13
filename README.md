@@ -22,14 +22,15 @@ I enable `Warn you when websites try to redirect or reload the page` as a securi
 
 ## Privacy and Security
 ### History
-I choose to `Use custom settings for history` and I `Never` `Accept third-party cookies`.
-
-### Security
-I uncheck all possible boxes here, and I start from the bottom and go up as if you check the top first the bottom ones will be unable to be unchecked. Starting with `Warn you about unwanted and uncommon software`, then, `Block dangerous downloads` and finally `Block dangerous and deceptive content`.    
+I choose to `Use custom settings for history` and I `Never` `Accept third-party cookies`.   
     
 ![Custom Settings](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/custom-history.PNG)
 ![No Third Party Cookies](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/never-third.PNG)
 
+### Security
+I uncheck all possible boxes here, and I start from the bottom and go up as if you check the top first the bottom ones will be unable to be unchecked. Starting with `Warn you about unwanted and uncommon software`, then, `Block dangerous downloads` and finally `Block dangerous and deceptive content`.    
+    
+![Disable safe browsing](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/security.PNG)
 
 ### DRM Content
 I uncheck the `Play DRM content` box on principle (also I do not watch Netflix or play video games in my browser). If you watch Netflix / hulu you may want to keep this enabled.   
