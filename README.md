@@ -55,6 +55,21 @@ I start at the bottom and work up to ensure all boxes are unchecked, first desel
     
 ![No cached content](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/reports.PNG) 
 
+
+## Updates
+I disable all automatic updates and update checking. I prefer to check for updates myself and also use Linux so it updates auotmatically when I update my computer. Keep in mind that if this is disabled you will need to manually check to stay up to date with most recent version.  
+    
+![No automatic updates](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/updates.PNG) 
+
+# Addons
+
+## Disabling automatic updates
+, I disable automatic addon updates. To do this click on the hamburger menu in the top right of the browser and select Add-ons (or press Ctrl+Shift+A). Once on the page click the gear in the top right next to search box and uncheck `Update Add-ons Automatically`:     
+        
+![Get to addons](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/addons.PNG) 
+![No automatic updates](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/addons-auto.PNG) 
+
+
 # Search Engine
 By default Firefox uses Yahoo, and comes with a few other search engines such as Google and DuckDuckGo. I try to avoid Google and dislike DuckDuckGo. I use searx for my default search engine, the following will guide you through the process of adding a new search engine to Firefox and setting it as the default.
 
