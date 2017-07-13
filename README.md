@@ -47,34 +47,51 @@ I check `Override automatic cache management` and then `Limit cache to` 0MB `of 
 I start at the bottom and work up to ensure all boxes are unchecked, first deselecting `Share Additional Data (i.e., Telemetry)` and then `Enable Nightly Health Report`. 
 
 #### Crash Reports
-`Allow Nightly to send backlogged crash reports on your behalf` is unchecked.
+`Allow Nightly to send backlogged crash reports on your behalf` is unchecked.   
+    
+![No cached content](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/reports.PNG) 
 
 # Search Engine
 By default Firefox uses Yahoo, and comes with a few other search engines such as Google and DuckDuckGo. I try to avoid Google and dislike DuckDuckGo. I use searx for my default search engine, the following will guide you through the process of adding a new search engine to Firefox and setting it as the default.
 
 ## Adding a new engine
-Navigate to searx.me. **Be sure that you have the Firefox search bar on your toolbar.** Click the small magnifying glass with the green plus sign on it and click `Add searx.me`.
-
+Navigate to searx.me. **Be sure that you have the Firefox search bar on your toolbar.** Click the small magnifying glass with the green plus sign on it and click `Add searx.me`.   
+    
+![Add searx.me](https://github.com/themagicteeth/magic-userjs/blob/master/searx/searx.PNG) 
+ 
 ## A new default
-Click the `Change search settings` option on the bottom of that same menu. This will bring you to the search preferences page. Under Default Search Engine open the dropdown and select `searx.me`.
+Click the `Change search settings` option on the bottom of that same menu. This will bring you to the search preferences page. Under Default Search Engine open the dropdown and select `searx.me`.     
+    
+![Set as default](https://github.com/themagicteeth/magic-userjs/blob/master/searx/default.PNG)
 
 ## Allowing searx with addons
 We can make searx even better by changing some of the preferences. But first we must allow searx in uMatrix and choose to keep the cookies so that searx can store our preferences.    
 
-First whitelist the cookies by clicking the CookieAuto Delete icon and selecting `Never Clean (WhiteList)`:
+First whitelist the cookies by clicking the CookieAuto Delete icon and selecting `Never Clean (WhiteList)`:     
+    
+![WhiteList cookies](https://github.com/themagicteeth/magic-userjs/blob/master/searx/whitelistsearx.PNG)
 
-The click the uMatrix grid and make it look like the picture (all images get whitelisted so that during an image search they will all show as they are not all 1st party images):
+The click the uMatrix grid and make it look like the picture (all images get whitelisted so that during an image search they will all show as they are not all 1st party images):       
+        
+![Allow in uMatrix](https://github.com/themagicteeth/magic-userjs/blob/master/searx/searx-umatrix.PNG)
 
 ## Preferences for searx
-In the top right corner click `preferences`:
+In the top right corner click `preferences`:    
+    
+![Get to preferences](https://github.com/themagicteeth/magic-userjs/blob/master/searx/prefs.PNG)
 
 ### General
-On the `General` tab the only thing I change is that I enable the **Image proxy**:
+On the `General` tab the only thing I change is that I enable the **Image proxy**:  
+    
+![General prefs](https://github.com/themagicteeth/magic-userjs/blob/master/searx/searx-gen.PNG)
 
 ### Engines
-This tab has more search engines that can be added. I added **reddit**, **startpage**, and **ddg definitions**, you can add as many as you want:
+This tab has more search engines that can be added. I added **reddit**, **startpage**, and **ddg definitions**, you can add as many as you want:    
+    
+![More engines](https://github.com/themagicteeth/magic-userjs/blob/master/searx/searx-prefs.PNG)
 
 ### Plugins
 There are a few neat plugins available in this tab. I chose to enable **DOAI rewrite**, and **Infinite scroll**, but feel free to add more:
-
+    
+![Plugins for searx](https://github.com/themagicteeth/magic-userjs/blob/master/searx/searx-plugins.PNG)
 
