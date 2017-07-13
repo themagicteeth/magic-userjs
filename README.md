@@ -93,13 +93,16 @@ Just install the addon, no further configuration.
 ### MixedContentHunter - _ghost_
 Resloves some mixedcontent blocking. Attempts to fetch blocked insecure resources of https.
 Download the addon and then navigate to: about:config?filter=security.mixed_content.block_display_content 
-Modify it to look like this (set it to true):
- 
+Modify it to look like this (set it to true):   
+    
+![Disable mixed content](https://github.com/themagicteeth/magic-userjs/blob/master/mixed/mixed-content.PNG) 
 
 ### Cookie AutoDelete - Kenny Do
 Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Whitelist the ones you trust while deleting the rest.
 Once installed click the newly added toolbar icon and click the gear in the top right corner to get to the settings page. Once on the settings page modify the settings to match the picture:
   
+![Cookie menu](https://github.com/themagicteeth/magic-userjs/blob/master/cookies/cookie-setup.PNG) 
+![Cookie settings](https://github.com/themagicteeth/magic-userjs/blob/master/cookies/cookie-settings.PNG) 
 
 The two settings enable active mode and set the amount of time between cookie cleanings. It is set to clean cookies for no longer open tabs every 15 seconds, default is 1 minute. The next setting changed is to not display notifications for cookies cleaned, it can be nice but I feel like it can become annoying after a while.
 
