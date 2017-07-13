@@ -22,6 +22,8 @@ I always enable `Ctrl+Tab cycles through tabs in recently used order`, it is a p
 ### Accessibility
 I enable `Warn you when websites try to redirect or reload the page` as a security measure. It is good to know if you are being redirected or thepage is reloading.
 
+![Tabs and accessibility prefs](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/prefs2.PNG)
+
 ## Privacy and Security
 ### History
 I choose to `Use custom settings for history` and I `Never` `Accept third-party cookies`.   
