@@ -8,6 +8,7 @@ To get to the options click the hamburger menu in the top right and select Optio
 I use Firefox as my default but I still disable `Always check if Nightly is your default browser`.
 
 I like to have my session restored after I close the window so I choose `Show your windows and tabs from last time` from the dropdown.
+![Alt text](https://github.com/themagicteeth/magic-userjs/blob/master/prefs/prefs1.PNG)
 
 ### Default Search Engine
 Later we will setup a default search engine not in this list. For now I delete all the defaults (Except for Google) by selecting each one and hitting the *DELETE* key on my keyboard. I prefer to add them myself as Mozilla will put in affiliate links in some of their search engines.
